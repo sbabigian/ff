@@ -1,0 +1,5 @@
+<img src="/assets/img/ffbio.jpg" alt="The FF Bio" width="282" height="161" style="margin: 60px 0 20px 320px;"/>
+<p class="about">
+	This line was created as an answer to family and friends insistence to share a talent and love of design. Fran Ferger began creating custom dresses while studying fashion design at Florida State University. While at FSU, Linda Cunningham of Jacksonville, Florida served as mentor and muse. Since graduation, Fran has worked at the side of Rocco Giovannangelo, the Master Tailor at Oxxford Clothes, one of the worlds finest custom tailors. Through this experience, she has been able to cultivate her skill and love of creating beautifully tailored garments.<br/><br/>
+	Fran Ferger the line is a collection of garments and jewelry that speaks to a love of effortless femininity while drawing inspiration from tailored menswear.
+</p>

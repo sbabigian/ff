@@ -1,0 +1,245 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END CSS RESET */
+.left{float: left;}
+.right{float: right;}
+.error{color: #8B0000;}
+.container{width: 960px;height: auto; margin: 20px auto;}
+p{color: #555;font-size: 18px; line-height: 24px;}
+#header{height: 150px;}
+.clear{clear:both;}
+body{font-family: "Big Caslon", Perpetua, Baskerville, "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;}
+h1{font-size: 72px;}
+div#logo{width: auto;float: left;}
+div#logo a{color: #000;}
+div#topnav{width: auto;height: 50px; color: #a7a9ac;list-style-type: none;float:right;display:inline;margin-left: 50px;}
+div#topnav ul li{font-size: 22px;display: inline;float:left;width: auto; margin: 69px 40px 0 0;}
+a.active{color: #000;}
+a {text-decoration: none; color: #a7a9ac}
+div#footer{width: 89px;height: 120px;text-align: center;margin:0 auto; position: relative;}
+div#footer ul {color: #a7a9ac;list-style-type: none;}
+div#footer ul li{font-size: 22px;display: inline;float:left;width: auto; padding-top: 50px;}
+div#footer ul li.pipe{ min-height: 25px;  border-left: 1px solid #000; margin: 50px 60px;padding: 0;}
+.coming{color: #a7a9ac;font-size: 20px;margin: 100px auto;width: auto; text-align: center;font-style: italic;}
+div.contact-form{margin: 20px 0 40px 400px}
+p.about{width: 400px;margin: 0 0 40px 400px}
+input{margin-bottom: 20px;}
+.narrow{width: 500px; text-align: center;margin: 0 auto;}
+#season{color:#A7A9AC; font-size: 18px; margin: 0 0 0 60px }
+.collection-block{margin: 40px auto 0 auto;text-align: center;padding: none;}
+.collection-block ul {width: 962px;}
+.collection-block ul li{list-style-type: none;display: inline; width: 190px;height: 300px}
+#hiddenlooks{display:none;}
+
+
+
+/* Slideshow stuff */
+.slideshow{ /* This is the container for the whole slideshow thing */
+	height: 520px;
+	width: 700px;
+	margin: 20px auto;
+	position: relative;
+}
+#ribbon {
+	position:absolute;
+	top:-3px;
+	left:-15px;
+	z-index:500;
+}
+
+#frame {
+	position:absolute;
+	z-index:0;
+	width:822px;
+	height:513px;
+	top:-2px;
+	left:-70px;
+}
+
+/*
+	Slideshow
+*/
+
+#slides {
+	position:absolute;
+	top:15px;
+	left:4px;
+	z-index:100;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:670px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+	text-align: center;
+}
+
+.look-slides .slides_container {
+	width:500px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container div.slide {
+	width:670px;
+	height:446px;
+	display:block;
+}
+
+.look-slides div.slide {
+	width:500px;
+	height:600px;
+	display:block;
+}
+
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:685px;
+}
+
+.look-slides .next,.look-slides .prev {
+	position:absolute;
+	top:107px;
+	left:40px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+.look-slides .next {
+	left:630px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:26px auto 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(/assets/img/slides/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+/*
+	Caption
+*/
+
+.caption {
+	z-index:500;
+	position:absolute;
+	bottom:-35px;
+	left:0;
+	height:30px;
+	padding:5px 20px 0 20px;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	width:822px;
+	font-size:1.3em;
+	line-height:1.33;
+	color:#fff;
+	border-top:1px solid #000;
+	text-shadow:none;
+}
+
+.caption p{color: #fff;}
