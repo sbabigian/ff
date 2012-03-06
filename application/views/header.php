@@ -34,7 +34,7 @@
           <li><a href="/">home</a></li>
           <li><a class="<? if($this->uri->segment(1)=='about'){echo 'active';}?> " href="/about/">about</a></li>
           <li><a class="<? if($this->uri->segment(1)=='collections'){echo 'active';}?> " href="/collections/">collections</a></li>
-          <li><a class="<? if($this->uri->segment(1)=='blog'){echo 'active';}?> " href="http://missferger.wordpress.com/">blog</a></li>
+          <li><a class="<? if($this->uri->segment(1)=='blog'){echo 'active';}?> " href="http://missferger.wordpress.com/" target="_blank">blog</a></li>
           <li><a class="<? if($this->uri->segment(1)=='contact'){echo 'active';}?> " href="/contact/">contact</a></li>
         </ul>
       </div>
