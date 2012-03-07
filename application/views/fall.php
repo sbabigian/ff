@@ -1,11 +1,11 @@
 <div id="season"><a href="/fall/">fall 2012</a></div>
 <div class="collection-block">
   <ul>
-    <li><a class="fancypop" href="#look1-ss"><img src="/assets/img/collections/fall2012/look1_sm.png"></a></li>
-    <li><a class="fancypop" href="#look2-ss"><img src="/assets/img/collections/fall2012/look2_sm.png"></a></li>
-    <li><a class="fancypop" href="#look3-ss"><img src="/assets/img/collections/fall2012/look3_sm.png"></a></li>
-    <li><a class="fancypop" href="#look4-ss"><img src="/assets/img/collections/fall2012/look4_sm.png"></a></li>
-    <li><a class="fancypop" href="#look5-ss"><img src="/assets/img/collections/fall2012/look5_sm.png"></a></li>
+    <li><a class="fancypop" href="#look1-ss"><img src="/assets/img/collections/fall2012/look1_sm.png"></a><br/>"Elizabeth" dress<br/>Model: 312003</li>
+    <li><a class="fancypop" href="#look2-ss"><img src="/assets/img/collections/fall2012/look2_sm.png"></a><br/>"Tena" top<br/>Model: 312006<br/><br/>"Sloan"pant<br/>Model: 312007</li>
+    <li><a class="fancypop" href="#look3-ss"><img src="/assets/img/collections/fall2012/look3_sm.png"></a><br/>"Meghan" dress<br/>Model: 312002</li>
+    <li><a class="fancypop" href="#look4-ss"><img src="/assets/img/collections/fall2012/look4_sm.png"></a><br/>"Lauren" dress<br/>Model: 312001</li>
+    <li><a class="fancypop" href="#look5-ss"><img src="/assets/img/collections/fall2012/look5_sm.png"></a><br/>"DeeDee" skirt<br/>Model: 312005</li>
   </ul>
 </div>
 

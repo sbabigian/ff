@@ -63,7 +63,7 @@ div#topnav{width: auto;height: 50px; color: #a7a9ac;list-style-type: none;float:
 div#topnav ul li{font-size: 22px;display: inline;float:left;width: auto; margin: 69px 40px 0 0;}
 a.active{color: #000;}
 a {text-decoration: none; color: #a7a9ac}
-div#footer{width: 89px;height: 120px;text-align: center;margin:0 auto; position: relative;}
+div#footer{width: 89px;height: 120px;text-align: center;margin:100px auto 20px auto; position: relative;}
 div#footer ul {color: #a7a9ac;list-style-type: none;}
 div#footer ul li{font-size: 22px;display: inline;float:left;width: auto; padding-top: 50px;}
 div#footer ul li.pipe{ min-height: 25px;  border-left: 1px solid #000; margin: 50px 60px;padding: 0;}
@@ -75,7 +75,7 @@ input{margin-bottom: 20px;}
 #season{color:#A7A9AC; font-size: 18px; margin: 0 0 0 60px }
 .collection-block{margin: 40px auto 0 auto;text-align: center;padding: none;}
 .collection-block ul {width: 962px;}
-.collection-block ul li{list-style-type: none;display: inline; width: 190px;height: 300px}
+.collection-block ul li{list-style-type: none;display: inline; float: left; width: 190px;height: 300px;}
 #hiddenlooks{display:none;}
 
 
@@ -102,7 +102,6 @@ input{margin-bottom: 20px;}
 	top:-2px;
 	left:-70px;
 }
-
 /*
 	Slideshow
 */
