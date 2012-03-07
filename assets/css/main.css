@@ -55,7 +55,7 @@ table {
 p{color: #555;font-size: 18px; line-height: 24px;}
 #header{height: 150px;}
 .clear{clear:both;}
-body{font-family: "Big Caslon", Perpetua, Baskerville, "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;}
+body{font-family: "Big Caslon", Perpetua, Baskerville, "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif; color: #A7A9AC;}
 h1{font-size: 72px;}
 div#logo{width: auto;float: left;}
 div#logo a{color: #000;}
