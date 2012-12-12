@@ -218,7 +218,7 @@ class Site extends CI_Controller {
 
       // set email class settings
       $this->email->from($this->input->post('email'),$this->input->post('firstname').' '.$this->input->post('lastname'));
-      $this->email->to('fcferger@gmail.com');
+      $this->email->to('fran@franferger.com');
 //      $this->email->cc('joe@domain.com');
 //      $this->email->bcc('sue@domain.com');
       $this->email->subject($_POST['subject']);
